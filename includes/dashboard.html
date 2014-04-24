@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <title>Sidebar</title>
+  <meta charset="UTF-8">
+  <meta name=description content="">
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="dashboard.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">HackBU Hackathon</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Login Buttons</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </nav>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 sidebar">
+        <ul class="nav nav-sidebar">
+          <li class="active"><a href="">Dashboard</a></li>
+          <li><a href="">Issues</a></li>
+          <li><a href="">Chatrooms</a></li>
+          <li><a href="">Resources</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-9 col-sm-offset-3 col-sm-9 col-md-9 col-lg-9">
+        <div class="jumbotron">
+          <div class="container">
+            <div class="text-center">
+              <h1>Time Remaining</h1>
+              <h2>Insert time remaining</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2>Announcements</h2>
+          </div>
+          <div class="panel-body">
+            <h3>Here are our big announcements!</h3>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h2>Schedule</h2>
+          </div> 
+          <table class="table table-striped table-hover">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Event</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+                <td>6:00pm</td>
+                <td>Registration</td>
+              </tr>
+              <tr>
+                <td>7:00pm</td>
+                <td>Crash courses</td>
+              </tr>
+              <tr>
+                <td>8:00pm</td>
+                <td>Hacking begins!</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+  </body>
+  </html>
